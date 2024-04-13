@@ -1,4 +1,4 @@
-Script Details
+```Script Details
 The script checks if sshfs is installed and installs it if necessary.
 
 It creates a mount point directory (/mnt/aws) if it doesn't already exist.
@@ -10,7 +10,7 @@ The script uses SSH key-based authentication (assuming SSH keys are properly con
 Notes
 Ensure that SSH access is allowed and SSH key-based authentication is properly configured on the remote server.
 
-Adjust the mount point directory (MOUNT_POINT) and sshfs options (-o allow_other) as needed based on the need case.
+Adjust the mount point directory (MOUNT_POINT) and sshfs options (-o allow_other) as needed based on the need case.``` 
 
 
 
