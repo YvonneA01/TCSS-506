@@ -31,7 +31,7 @@ fi
 
 # Mount home directory of the ubuntu user to the mount point using sshfs
 echo "Mounting home directory of ubuntu to $MOUNT_POINT..."
- sshfs -o IdentityFile=~/Downloads/sshkey.pem  -o workaround=rename -o allow_other ubuntu@ec2-3-144-108-65.us-east-2.compute.amazonaws.com:/home/ubuntu "$MOUNT_POINT"
+ sshfs -o IdentityFile=~/Downloads/sshkey.pem  -o workaround=rename -o allow_other ubuntu@ec2-3-1xx-1xx-xx.us-east-2.compute.amazonaws.com:/home/ubuntu "$MOUNT_POINT"
 
 # Check if mount was successful
 if [ $? -eq 0 ]; then
